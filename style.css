@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+  }
+  
+  
+  body{
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav{
+      display: flex;    
+      justify-content: center;
+      background-color: #070910;
+      overflow: hidden;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  
+  .topnav a{
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 30px;
+      text-decoration: none;
+      font-size: 17px;
+      transition: 0.5s;
+  }
+  
+  .topnav a:hover{
+      background-color: #ff0000;
+      color: #ffffff;
+  }
+  
+  .header{
+      background-image: url("../img/fresstock.jpg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      height: 500px;
+      display: grid;
+      padding: 100px 50px;    
+  }
+  
+  .overlay{
+      place-self: center;
+      background-color: rgba(0,0,0,0.9);
+      text-align: center;
+      color: #ffffff;
+      padding: 50px;
+      width: 80%;    
+  }
+  
+  .about{
+      padding: 120px 0px;
+      display: flex;
+      background-color: #111211;
+      color: #fff;
+  }
+  
+  .content{
+      place-self: center;
+      text-align: left;
+      line-height: 22px;    
+      padding: 50px 50px;
+      width: 50%;
+      letter-spacing: 0.8px;    
+ }
+  
+  .about-gallery{
+      place-self: center;
+      width: 100%;    
+  }
+  
+  .about-image img{
+      width: 600px;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid #000000;
+
+
+       }
+       div.gallery {
+        margin: 5px;
+        border: 2px solid #000000;
+        float: left;
+        width: 620px;
+      }
+      
+      div.gallery:hover {
+        border: 2px solid #000000;
+      }
+      
+      div.gallery img {
+        width: 600px;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      .hobbies{
+        display: flex;    
+        justify-content: center;
+        background-color: #757575;
+        overflow: hidden;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .hobbies a{
+        color: #8a8a8a;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 0.5s;
+    }
+    
+    .hobbies a:hover{
+        background-color: #a8a8a8;
+        color: #ffffff;
+    }
+    
+    
